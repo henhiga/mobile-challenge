@@ -7,8 +7,13 @@
 
 import Foundation
 
-struct Currency: Codable {
-    let currencies: [String: String]
+struct CurrencyConversion: Codable {
+    let quotes: [String: Double]
+}
+
+struct CurrencyConversionName: Codable {
+    let code: String
+    let value: Double
 }
 
 

@@ -6,30 +6,41 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B37D47BC2D51991600B6C2B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B37D47B42D51991600B6C2B8 /* Assets.xcassets */; };
+		B37D47BE2D51991600B6C2B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37D47B72D51991600B6C2B8 /* LaunchScreen.storyboard */; };
+		B37D47BF2D51991600B6C2B8 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D47A92D51991600B6C2B8 /* ApiService.swift */; };
+		B37D47C02D51991600B6C2B8 /* CurrencyServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D47AA2D51991600B6C2B8 /* CurrencyServiceError.swift */; };
+		B37D47C12D51991600B6C2B8 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D47AB2D51991600B6C2B8 /* Endpoint.swift */; };
+		B37D47C22D51991600B6C2B8 /* HTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D47AC2D51991600B6C2B8 /* HTTP.swift */; };
+		B37D47C32D51991600B6C2B8 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D47AE2D51991600B6C2B8 /* HomeController.swift */; };
+		B37D47C42D51991600B6C2B8 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D47B02D51991600B6C2B8 /* Currency.swift */; };
+		B37D47C52D51991600B6C2B8 /* CurrencyConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D47B12D51991600B6C2B8 /* CurrencyConversion.swift */; };
+		B37D47C62D51991600B6C2B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D47B32D51991600B6C2B8 /* AppDelegate.swift */; };
+		B37D47C72D51991600B6C2B8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D47B52D51991600B6C2B8 /* Constants.swift */; };
+		B37D47C82D51991600B6C2B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D47B82D51991600B6C2B8 /* SceneDelegate.swift */; };
+		B37D47CA2D51995100B6C2B8 /* ViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D47C92D51995100B6C2B8 /* ViewControllerViewModel.swift */; };
+		B37D47CC2D52CF2E00B6C2B8 /* TextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37D47CB2D52CF2E00B6C2B8 /* TextFieldDelegate.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B37D47572D51890900B6C2B8 /* mobileChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobileChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B37D47A92D51991600B6C2B8 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		B37D47AA2D51991600B6C2B8 /* CurrencyServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyServiceError.swift; sourceTree = "<group>"; };
+		B37D47AB2D51991600B6C2B8 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		B37D47AC2D51991600B6C2B8 /* HTTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP.swift; sourceTree = "<group>"; };
+		B37D47AE2D51991600B6C2B8 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		B37D47B02D51991600B6C2B8 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		B37D47B12D51991600B6C2B8 /* CurrencyConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConversion.swift; sourceTree = "<group>"; };
+		B37D47B32D51991600B6C2B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B37D47B42D51991600B6C2B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B37D47B52D51991600B6C2B8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B37D47B62D51991600B6C2B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B37D47B72D51991600B6C2B8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B37D47B82D51991600B6C2B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B37D47C92D51995100B6C2B8 /* ViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerViewModel.swift; sourceTree = "<group>"; };
+		B37D47CB2D52CF2E00B6C2B8 /* TextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		B37D47692D51890A00B6C2B8 /* Exceptions for "mobileChallenge" folder in "mobileChallenge" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Supporting/Info.plist,
-			);
-			target = B37D47562D51890900B6C2B8 /* mobileChallenge */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		B37D47592D51890900B6C2B8 /* mobileChallenge */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				B37D47692D51890A00B6C2B8 /* Exceptions for "mobileChallenge" folder in "mobileChallenge" target */,
-			);
-			path = mobileChallenge;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B37D47542D51890900B6C2B8 /* Frameworks */ = {
@@ -45,7 +56,7 @@
 		B37D474E2D51890900B6C2B8 = {
 			isa = PBXGroup;
 			children = (
-				B37D47592D51890900B6C2B8 /* mobileChallenge */,
+				B37D47BB2D51991600B6C2B8 /* mobileChallenge */,
 				B37D47582D51890900B6C2B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +67,68 @@
 				B37D47572D51890900B6C2B8 /* mobileChallenge.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B37D47AD2D51991600B6C2B8 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B37D47A92D51991600B6C2B8 /* ApiService.swift */,
+				B37D47AA2D51991600B6C2B8 /* CurrencyServiceError.swift */,
+				B37D47AB2D51991600B6C2B8 /* Endpoint.swift */,
+				B37D47AC2D51991600B6C2B8 /* HTTP.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		B37D47AF2D51991600B6C2B8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B37D47AE2D51991600B6C2B8 /* HomeController.swift */,
+				B37D47CB2D52CF2E00B6C2B8 /* TextFieldDelegate.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B37D47B22D51991600B6C2B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B37D47B02D51991600B6C2B8 /* Currency.swift */,
+				B37D47B12D51991600B6C2B8 /* CurrencyConversion.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B37D47B92D51991600B6C2B8 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				B37D47B32D51991600B6C2B8 /* AppDelegate.swift */,
+				B37D47B42D51991600B6C2B8 /* Assets.xcassets */,
+				B37D47B52D51991600B6C2B8 /* Constants.swift */,
+				B37D47B72D51991600B6C2B8 /* LaunchScreen.storyboard */,
+				B37D47B82D51991600B6C2B8 /* SceneDelegate.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		B37D47BA2D51991600B6C2B8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B37D47C92D51995100B6C2B8 /* ViewControllerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B37D47BB2D51991600B6C2B8 /* mobileChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				B37D47AD2D51991600B6C2B8 /* API */,
+				B37D47B22D51991600B6C2B8 /* Model */,
+				B37D47BA2D51991600B6C2B8 /* ViewModels */,
+				B37D47AF2D51991600B6C2B8 /* Controllers */,
+				B37D47B92D51991600B6C2B8 /* Supporting */,
+				B37D47B62D51991600B6C2B8 /* Info.plist */,
+			);
+			path = mobileChallenge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +145,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				B37D47592D51890900B6C2B8 /* mobileChallenge */,
 			);
 			name = mobileChallenge;
 			packageProductDependencies = (
@@ -122,6 +192,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B37D47BC2D51991600B6C2B8 /* Assets.xcassets in Resources */,
+				B37D47BE2D51991600B6C2B8 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +204,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B37D47BF2D51991600B6C2B8 /* ApiService.swift in Sources */,
+				B37D47C02D51991600B6C2B8 /* CurrencyServiceError.swift in Sources */,
+				B37D47CA2D51995100B6C2B8 /* ViewControllerViewModel.swift in Sources */,
+				B37D47C12D51991600B6C2B8 /* Endpoint.swift in Sources */,
+				B37D47C22D51991600B6C2B8 /* HTTP.swift in Sources */,
+				B37D47C32D51991600B6C2B8 /* HomeController.swift in Sources */,
+				B37D47C42D51991600B6C2B8 /* Currency.swift in Sources */,
+				B37D47C52D51991600B6C2B8 /* CurrencyConversion.swift in Sources */,
+				B37D47C62D51991600B6C2B8 /* AppDelegate.swift in Sources */,
+				B37D47C72D51991600B6C2B8 /* Constants.swift in Sources */,
+				B37D47CC2D52CF2E00B6C2B8 /* TextFieldDelegate.swift in Sources */,
+				B37D47C82D51991600B6C2B8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

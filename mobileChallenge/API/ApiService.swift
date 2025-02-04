@@ -18,7 +18,6 @@ class ApiService{
                 completion(.failure(.unknown(error.localizedDescription)))
                 return
             }
-            
             if let response = response as? HTTPURLResponse, response.statusCode != 200 {
                 completion(.failure(.notFound("Not found")))
                 return
